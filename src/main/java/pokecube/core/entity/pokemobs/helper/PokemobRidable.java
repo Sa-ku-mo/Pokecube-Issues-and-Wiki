@@ -199,7 +199,7 @@ public abstract class PokemobRidable extends PokemobHasParts
         if (this.pokemobCap.getController().inFluid) scale = PokecubeCore.getConfig().surfSpeedFactor;
         else if (this.pokemobCap.getController().canFly && !this.pokemobCap.onGround())
         {
-            scale = PokecubeCore.getConfig().surfSpeedFactor;
+            scale = PokecubeCore.getConfig().flySpeedFactor;
             base = this.getAttribute(Attributes.FLYING_SPEED).getValue();
         }
         return (float) (scale * base);
