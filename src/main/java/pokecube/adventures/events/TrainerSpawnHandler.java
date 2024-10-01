@@ -24,10 +24,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
-import net.minecraft.world.level.levelgen.Heightmap.Types;
-import net.minecraftforge.event.TickEvent.LevelTickEvent;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
+import net.minecraftforge.event.TickEvent.LevelTickEvent;
 import net.minecraftforge.event.TickEvent.Phase;
 import net.minecraftforge.eventbus.api.Event.Result;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -166,15 +165,8 @@ public class TrainerSpawnHandler
 
         if (temp1 != null)
         {
-            int y_Test;
-            if (temp1.y > (y_Test = world.getHeight(Types.MOTION_BLOCKING_NO_LEAVES, temp1.intX(), temp1.intY())))
-                temp1.y = y_Test;
-            temp1.y++;
-
-            // TODO: Check if correct, old was .getBlockMaterial(world).blocksMotion()
-            if (!temp1.isClearOfBlocks(world)) return null;
             if (!temp1.addTo(0, 1, 0).isClearOfBlocks(world)) return null;
-            temp1.y--;
+            if (!temp1.add(0, 1, 0).isClearOfBlocks(world)) return null;
             return temp1;
         }
         return null;
