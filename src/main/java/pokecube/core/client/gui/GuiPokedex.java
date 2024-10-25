@@ -93,8 +93,8 @@ public class GuiPokedex extends Screen
     {
         super.init();
 
-        final int yOffset = this.height / 2 + 1;
-        final int xOffset = this.width / 2;
+        int yOffset = this.height / 2 + 1;
+        int xOffset = this.width / 2;
 
         this.pokemobSearchBox = new EditBox(this.font, xOffset - 60, yOffset + 40, 103, 12, TComponent.literal(""));
         this.pokemobSearchBox.setTooltip(Tooltip.create(Component.translatable("editbox.pokecube.pokedex.search.tooltip")));
@@ -105,6 +105,8 @@ public class GuiPokedex extends Screen
             this.pokemobSearchBox.setValue(I18n.get(GuiPokedex.pokedexEntry.getUnlocalizedName()));
         this.addRenderableWidget(this.pokemobSearchBox);
 
+        yOffset += 2;
+        xOffset -= 2;
         // Play Sound Button
         this.soundButton = this.addRenderableWidget(new TexButton.Builder(TComponent.literal(""), b -> {
             float volume = 1F;
@@ -115,6 +117,8 @@ public class GuiPokedex extends Screen
                 .tooltip(Tooltip.create(Component.translatable("button.pokecube.pokedex.sound.tooltip")))
                 .createNarration(supplier -> Component.translatable("button.pokecube.pokedex.sound.narrate")).build());
 
+        yOffset -= 1;
+        xOffset += 5;
         // Previous Button
         this.prevButton = this.addRenderableWidget(new TexButton.Builder(TComponent.literal(""), b -> {
             GuiPokedex.pokedexEntry = Pokedex.getInstance().getPrevious(GuiPokedex.pokedexEntry, 1);
