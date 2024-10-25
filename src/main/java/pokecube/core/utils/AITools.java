@@ -7,7 +7,6 @@ import com.google.common.collect.Lists;
 import com.mojang.serialization.DataResult;
 import com.mojang.serialization.Dynamic;
 
-import net.minecraft.core.Registry;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.NbtOps;
 import net.minecraft.nbt.Tag;

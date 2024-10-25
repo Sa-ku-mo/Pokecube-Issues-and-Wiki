@@ -59,7 +59,7 @@ public class PaintBrushRecipe extends CustomRecipe
         {
             final ItemStack stack = container.getItem(i);
             if (stack.isEmpty()) continue;
-            boolean isBrush = stack.getItem() instanceof PaintBrush br;
+            boolean isBrush = stack.getItem() instanceof PaintBrush;
             if (isBrush && brush) return false;
             else if (isBrush)
             {
@@ -86,7 +86,7 @@ public class PaintBrushRecipe extends CustomRecipe
         {
             final ItemStack stack = container.getItem(i);
             if (stack.isEmpty()) continue;
-            boolean isBrush = stack.getItem() instanceof PaintBrush br;
+            boolean isBrush = stack.getItem() instanceof PaintBrush;
             if (isBrush) continue;
             final TagKey<Item> dyeTag = Tags.Items.DYES;
             if (stack.is(dyeTag))
