@@ -93,8 +93,8 @@
     "pokemob.move.recoil.damage.user": "%1$s §a受到了反作用力的伤害！",
     "pokemob.move.recoil.damage.target": "%1$s §c受到了反作用力的伤害！",
 
-    "pokemob.move.recoil.heal.user": "%1$s §c恢复了体力！",
-    "pokemob.move.recoil.heal.target": "%1$s §a恢复了体力！",
+    "pokemob.move.recoil.heal.user": "%1$s §c恢复了ＨＰ！",
+    "pokemob.move.recoil.heal.target": "%1$s §a恢复了ＨＰ！",
 
     "pokemob.move.isfrozen.user": "%1$s §c被冰冻。",
     "pokemob.move.issleeping.user": "%1$s §c在睡觉。",
@@ -238,7 +238,7 @@
     "pokewatch.spawns.rate_single": "调整前比例： %s",
     "pokewatch.spawns.info": "栖息在此处的宝可梦：",
 
-    "pokewatch.HP": "体力",
+    "pokewatch.HP": "ＨＰ",
     "pokewatch.ATT": "物攻",
     "pokewatch.DEF": "物防",
     "pokewatch.ATTSP": "特攻",
@@ -850,7 +850,7 @@
     "_comment": "Pokecube Tooltips",
 
     "pokecube.tooltip.level": "等级：%1$s",
-    "pokecube.tooltip.health": "§2体力：%1$s/%2$s",
+    "pokecube.tooltip.health": "§2ＨＰ：%1$s/%2$s",
     "pokecube.tooltip.xp": "§3经验：%1$s/%2$s",
     "pokecube.tooltip.moves": "§e招式：%1$s",
     "pokecube.tooltip.ivs": "§7个体值：%s",
@@ -865,7 +865,7 @@
 
     "_comment": "Vitamin Tooltips",
 
-    "pokecube.tooltip.hpup": "§7提高宝可梦的体力上限。",
+    "pokecube.tooltip.hpup": "§7提高宝可梦的ＨＰ上限。",
     "pokecube.tooltip.protein": "§7提高宝可梦的物攻。",
     "pokecube.tooltip.iron": "§7提高宝可梦的物防。",
     "pokecube.tooltip.calcium": "§7提高宝可梦的特攻。",
