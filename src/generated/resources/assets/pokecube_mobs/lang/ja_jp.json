@@ -1237,9 +1237,9 @@
   "entity.pokecube.munkidori": "マシマシラ",
   "entity.pokecube.fezandipiti": "キチキギス",
   "entity.pokecube.ogerpon": "オーガポン",
-  "entity.pokecube.ogerpon-wellspring-mask": "オーガポン",
-  "entity.pokecube.ogerpon-hearthflame-mask": "オーガポン",
-  "entity.pokecube.ogerpon-cornerstone-mask": "オーガポン",
+  "entity.pokecube.ogerpon-wellspring-mask": "オーガポン (いどのめん)",
+  "entity.pokecube.ogerpon-hearthflame-mask": "オーガポン (かまどのめん)",
+  "entity.pokecube.ogerpon-cornerstone-mask": "オーガポン (いしずえのめん)",
   "entity.pokecube.archaludon": "ブリジュラス",
   "entity.pokecube.hydrapple": "カミツオロチ",
   "entity.pokecube.gouging-fire": "ウガツホムラ",
@@ -1247,8 +1247,8 @@
   "entity.pokecube.iron-boulder": "テツノイワオ",
   "entity.pokecube.iron-crown": "テツノカシラ",
   "entity.pokecube.terapagos": "テラパゴス",
-  "entity.pokecube.terapagos-terastal": "テラパゴス",
-  "entity.pokecube.terapagos-stellar": "テラパゴス",
+  "entity.pokecube.terapagos-terastal": "テラパゴス（テラスタルフォルム）",
+  "entity.pokecube.terapagos-stellar": "テラパゴス（ステラフォルム）",
   "entity.pokecube.pecharunt": "モモワロウ",
   "entity.pokecube.missingno": "MissingNo."
 }

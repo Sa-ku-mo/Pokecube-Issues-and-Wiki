@@ -1237,9 +1237,9 @@
   "entity.pokecube.munkidori": "Benesaru",
   "entity.pokecube.fezandipiti": "Beatori",
   "entity.pokecube.ogerpon": "Ogerpon",
-  "entity.pokecube.ogerpon-wellspring-mask": "Ogerpon",
-  "entity.pokecube.ogerpon-hearthflame-mask": "Ogerpon",
-  "entity.pokecube.ogerpon-cornerstone-mask": "Ogerpon",
+  "entity.pokecube.ogerpon-wellspring-mask": "Ogerpon (Brunnenmaske)",
+  "entity.pokecube.ogerpon-hearthflame-mask": "Ogerpon (Ofenmaske)",
+  "entity.pokecube.ogerpon-cornerstone-mask": "Ogerpon (Fundamentmaske)",
   "entity.pokecube.archaludon": "Briduradon",
   "entity.pokecube.hydrapple": "Hydrapfel",
   "entity.pokecube.gouging-fire": "Keilflamme",
@@ -1247,8 +1247,8 @@
   "entity.pokecube.iron-boulder": "Eisenfels",
   "entity.pokecube.iron-crown": "Eisenhaupt",
   "entity.pokecube.terapagos": "Terapagos",
-  "entity.pokecube.terapagos-terastal": "Terapagos",
-  "entity.pokecube.terapagos-stellar": "Terapagos",
+  "entity.pokecube.terapagos-terastal": "Terapagos (Terakristall-Form)",
+  "entity.pokecube.terapagos-stellar": "Terapagos (Stellarform)",
   "entity.pokecube.pecharunt": "Infamomo",
   "entity.pokecube.missingno": "MissingNo."
 }

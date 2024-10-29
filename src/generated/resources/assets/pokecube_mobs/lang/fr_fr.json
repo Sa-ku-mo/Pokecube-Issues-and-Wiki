@@ -1237,9 +1237,9 @@
   "entity.pokecube.munkidori": "Fortusimia",
   "entity.pokecube.fezandipiti": "Favianos",
   "entity.pokecube.ogerpon": "Ogerpon",
-  "entity.pokecube.ogerpon-wellspring-mask": "Ogerpon",
-  "entity.pokecube.ogerpon-hearthflame-mask": "Ogerpon",
-  "entity.pokecube.ogerpon-cornerstone-mask": "Ogerpon",
+  "entity.pokecube.ogerpon-wellspring-mask": "Ogerpon (Masque du Puits)",
+  "entity.pokecube.ogerpon-hearthflame-mask": "Ogerpon (Masque du Fourneau)",
+  "entity.pokecube.ogerpon-cornerstone-mask": "Ogerpon (Masque de la Pierre)",
   "entity.pokecube.archaludon": "Pondralugon",
   "entity.pokecube.hydrapple": "Pomdorochi",
   "entity.pokecube.gouging-fire": "Feu-Perçant",
@@ -1247,8 +1247,8 @@
   "entity.pokecube.iron-boulder": "Roc-de-Fer",
   "entity.pokecube.iron-crown": "Chef-de-Fer",
   "entity.pokecube.terapagos": "Terapagos",
-  "entity.pokecube.terapagos-terastal": "Terapagos",
-  "entity.pokecube.terapagos-stellar": "Terapagos",
+  "entity.pokecube.terapagos-terastal": "Terapagos (Forme Téracristal)",
+  "entity.pokecube.terapagos-stellar": "Terapagos (Forme Stellaire)",
   "entity.pokecube.pecharunt": "Pêchaminus",
   "entity.pokecube.missingno": "MissingNo."
 }
