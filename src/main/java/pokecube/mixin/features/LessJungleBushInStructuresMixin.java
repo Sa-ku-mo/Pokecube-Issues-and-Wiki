@@ -34,7 +34,7 @@ public class LessJungleBushInStructuresMixin
             {
                 Registry<Structure> configuredStructureFeatureRegistry = context.level().registryAccess()
                         .registryOrThrow(RegHelper.STRUCTURE_REGISTRY);
-                StructureManager structureManager = ((WorldGenRegionAccessor) context.level()).getStructureManager();
+                StructureManager structureManager = accessor.getStructureManager();
 
                 for (Holder<Structure> configuredStructureFeature : configuredStructureFeatureRegistry
                         .getOrCreateTag(WorldgenTags.LESS_JUNGLE_BUSHES))

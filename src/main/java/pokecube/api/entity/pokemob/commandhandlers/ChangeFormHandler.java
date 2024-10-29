@@ -100,7 +100,7 @@ public class ChangeFormHandler extends DefaultHandler
         final MinecraftServer server = mob.getServer();
 
         if (pokemob.getGeneralState(GeneralStates.EVOLVING) || server == null || owner == null) return;
-        if (!(world instanceof ServerLevel level)) return;
+        if (!(world instanceof ServerLevel)) return;
 
         final boolean hasRing = player == null || checker.hasFormChangeRing(owner, pokemob);
 

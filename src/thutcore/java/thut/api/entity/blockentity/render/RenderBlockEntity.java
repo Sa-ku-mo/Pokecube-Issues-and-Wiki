@@ -78,7 +78,7 @@ public class RenderBlockEntity<T extends BlockEntityBase> extends EntityRenderer
             mat.mulPose(Axis.YN.rotationDegrees(180.0F));
             mat.mulPose(Axis.ZP.rotationDegrees(180.0F));
             mat.mulPose(Axis.XP.rotationDegrees(180.0F));
-            if (entity instanceof IMultiplePassengerEntity multi)
+            if (entity instanceof IMultiplePassengerEntity)
             {
 //                final float yaw = -(multi.getPrevYaw() + (multi.getYaw() - multi.getPrevYaw()) * partialTicks);
 //                final float pitch = -(multi.getPrevPitch() + (multi.getPitch() - multi.getPrevPitch()) * partialTicks);

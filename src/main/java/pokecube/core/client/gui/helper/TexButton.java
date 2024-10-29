@@ -21,7 +21,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import pokecube.core.client.gui.watch.GuiPokeWatch;
 import pokecube.core.utils.Resources;
 
 public class TexButton extends Button
@@ -154,7 +153,7 @@ public class TexButton extends Button
             RenderSystem.defaultBlendFunc();
             RenderSystem.enableDepthTest();
             final int i = button.getTextureY();
-            graphics.blit(GuiPokeWatch.getWidgetTex(), button.getX(), button.getY(), this.u, this.v + i * this.h,
+            graphics.blit(button.texture, button.getX(), button.getY(), this.u, this.v + i * this.h,
                     this.w, this.h);
         }
     }

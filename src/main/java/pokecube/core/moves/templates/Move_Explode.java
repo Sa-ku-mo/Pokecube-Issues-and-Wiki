@@ -47,7 +47,7 @@ public class Move_Explode implements IMove
         public void hitEntity(final Entity e, final float power, final Explosion boom)
         {
             // Dont hit twice, and only hit living entities.
-            if (this.hit.get(e.getId()) || !(e instanceof LivingEntity living)) return;
+            if (this.hit.get(e.getId()) || !(e instanceof LivingEntity)) return;
             // Dont hit self, that is taken care of elsewhere.
             if (e == this.user.getEntity()) return;
             // Flag as already hit.

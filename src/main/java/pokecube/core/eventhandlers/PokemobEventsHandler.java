@@ -522,7 +522,7 @@ public class PokemobEventsHandler
     private static void onLivingHurt(final LivingHurtEvent evt)
     {
         // Only process these server side
-        if (!(evt.getEntity().level() instanceof ServerLevel level)) return;
+        if (!(evt.getEntity().level() instanceof ServerLevel)) return;
         /*
          * No harming invalid targets, only apply this to pokemob related damage
          * sources
@@ -884,7 +884,7 @@ public class PokemobEventsHandler
                 return;
             }
 
-            if (living.getVehicle() instanceof Player player)
+            if (living.getVehicle() instanceof Player)
             {
                 if (!pokemob.getLogicState(LogicStates.SITTING))
                 {

@@ -85,7 +85,7 @@ public class AnimationXML
         public void onRender(PoseStack mat, IExtendedModelPart part)
         {
             Entity mob = part.convertToGlobal(mat, _place);
-            if (mob == null || _type == null || !(mob.level instanceof ClientLevel level) || !mob.isAddedToWorld())
+            if (mob == null || _type == null || !(mob.level instanceof ClientLevel) || !mob.isAddedToWorld())
                 return;
             if (ThutCore.getConfig().modelCullThreshold == -1) return;
             var animated = part.getAnimationHolder().get().getContext();

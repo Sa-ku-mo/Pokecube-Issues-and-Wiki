@@ -425,7 +425,7 @@ public class CapabilityHasPokemobs
         public boolean defeated(final Entity e)
         {
             boolean defeated = false;
-            if (e instanceof Player player)
+            if (e instanceof Player)
             {
                 DefeatList defeatedList = PokecubePlayerDataHandler.getCustomDataValue(e.getStringUUID(),
                         "npcs_defeated_by");
@@ -437,7 +437,7 @@ public class CapabilityHasPokemobs
         public boolean defeatedBy(final Entity e)
         {
             boolean defeated = false;
-            if (e instanceof Player player)
+            if (e instanceof Player)
             {
                 DefeatList defeatedList = PokecubePlayerDataHandler.getCustomDataValue(e.getStringUUID(),
                         "npcs_defeated");
@@ -509,12 +509,9 @@ public class CapabilityHasPokemobs
             // Only store for players
             if (lost instanceof Player)
             {
-                if (lost instanceof Player player)
-                {
-                    DefeatList defeatedList = PokecubePlayerDataHandler.getCustomDataValue(lost.getStringUUID(),
-                            "npcs_defeated_by");
-                    defeatedList.validate(this.user, defeatResetKey);
-                }
+                DefeatList defeatedList = PokecubePlayerDataHandler.getCustomDataValue(lost.getStringUUID(),
+                        "npcs_defeated_by");
+                defeatedList.validate(this.user, defeatResetKey);
                 // If available, we will increase reputation out of pity
                 if (this.user instanceof Villager villager)
                     villager.getGossips().add(lost.getUUID(), GossipType.MINOR_POSITIVE, 10);

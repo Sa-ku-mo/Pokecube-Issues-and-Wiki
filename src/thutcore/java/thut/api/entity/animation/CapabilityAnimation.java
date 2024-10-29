@@ -162,7 +162,7 @@ public class CapabilityAnimation
         @Override
         public void preRunAll()
         {
-            if (context != null && context.getContext() instanceof Entity e && e.tickCount % 10 == 0)
+            if (context != null && context.getContext() instanceof Entity e)
             {
                 var transients = context.transientAnimations();
                 synchronized (transients)

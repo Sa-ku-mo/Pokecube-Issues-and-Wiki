@@ -172,7 +172,7 @@ public class Tree implements INBTSerializable<CompoundTag>
                 this.allParts.forEach((id, p) -> {
                     if (p instanceof Edge e1)
                     {
-                        if (((Edge) p).areSame(e)) throw new IllegalStateException("How are edges same???");
+                        if (e1.areSame(e)) throw new IllegalStateException("How are edges same???");
                     }
                 });
 
@@ -199,7 +199,7 @@ public class Tree implements INBTSerializable<CompoundTag>
                     if (p instanceof Edge e1)
                     {
                         if (duped.get()) return;
-                        if (((Edge) p).areSame(e)) duped.set(false);
+                        if (e1.areSame(e)) duped.set(false);
                     }
                 });
 
